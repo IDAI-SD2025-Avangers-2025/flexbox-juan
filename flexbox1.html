@@ -24,6 +24,12 @@
 			line-height: 100px;
 			font-size: 22px;
 		}
+          body {
+               margin: 0;
+               padding: 0;
+               background-image: url(imagenes/JCB.jpg);
+               background-size: 100%;
+          }
           .c1{
                flex-flow: column wrap;
           }
@@ -36,10 +42,21 @@
           .c4{
                flex-flow: row-reverse wrap-reverse;
           }
+          #header {
+               background-color: greenyellow;
+               font-size: 10px;
+               font-family: Verdana, Geneva, Tahoma, sans-serif;
+               text-align: center;
+          }
+          
      </style>
 </head>
 <body>
-     
+     <div id="header"> 
+          <a href="index.html">
+               Regresar a la pagina principal
+          </a>
+     </div>
      <div class="contenedor c1">
           <div class="items">1</div>
           <div class="items">2</div>

@@ -27,6 +27,12 @@
 			line-height: 100px;
 			font-size: 22px;
 		}
+		body {
+            margin: 0;
+            padding: 0;
+            background-image: url(imagenes/raulguantecillo.jpg);
+            background-size: 100%;
+        }
 		.item1 {
 			flex: 1 1 25%;
 			order: 3;
@@ -43,11 +49,20 @@
 			flex: 4 4 25%;
 			order: 1;
 		}
+		#header {
+            background-color: greenyellow;
+            font-size: 10px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+        }
     </style>
-
-
 </head>
 <body>
+	<div id="header"> 
+        <a href="index.html">
+            egresar a la pagina principal
+        </a>
+    </div>
     <div class="contenedor">
         <div class="items item1">1</div>
         <div class="items item2">2</div>

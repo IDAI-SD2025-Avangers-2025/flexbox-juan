@@ -17,7 +17,12 @@
                justify-content: center;
                align-items: center;
 		}
-
+          body {
+               margin: 0;
+               padding: 0;
+               background-image: url(imagenes/señormanguera.png);
+               background-size: 100%;
+          }
 		.items{
 			background: lightblue;
 			width: 100px;
@@ -39,10 +44,20 @@
           .c4 .item4{
                align-self: stretch;
           }
+          #header {
+               background-color: greenyellow;
+               font-size: 10px;
+               font-family: Verdana, Geneva, Tahoma, sans-serif;
+               text-align: center;
+          }
      </style>
 </head>
 <body>
-     
+     <div id="header"> 
+          <a href="index.html">
+               Regresar a la pagina principal
+          </a>
+     </div>
      <div class="contenedor c1">
           <div class="items item1">1</div>
           <div class="items item2">2</div>
